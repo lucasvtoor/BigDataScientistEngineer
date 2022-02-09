@@ -1,0 +1,28 @@
+[
+  {
+    "site": "TripAdvisor",
+    "pages": []
+  },
+  {
+    "site": "Booking.com",
+    "pages": [
+      [
+        "london_all",
+        "https://www.booking.com/searchresults.html?label=gen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuAKcsY2QBsACAdICJGI4Zjc1ZGZiLTc0YTUtNGIyNi1hZmQ4LWYyYjQzNGQwMjgzOdgCBeACAQ&sid=ffd7ca868d6d04275c7091b539c7a70b&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.html%3Flabel%3Dgen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuAKcsY2QBsACAdICJGI4Zjc1ZGZiLTc0YTUtNGIyNi1hZmQ4LWYyYjQzNGQwMjgzOdgCBeACAQ%3Bsid%3Dffd7ca868d6d04275c7091b539c7a70b%3Bsb_price_type%3Dtotal%26%3B&ss=Central+London%2C+London%2C+Greater+London%2C+United+Kingdom&is_ski_area=0&checkin_year=&checkin_month=&checkout_year=&checkout_month=&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&search_pageview_id=ac422a4ec3ce015a&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0&ac_position=0&ac_langcode=en&ac_click_type=b&dest_id=2280&dest_type=district&place_id_lat=51.507282&place_id_lon=-0.13493559&search_pageview_id=ac422a4ec3ce015a&search_selected=true&ss_raw=London"
+      ],
+      [
+        "amsterdam_all",
+        "https://www.booking.com/city/nl/amsterdam.html?aid=304142;label=gen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuAKcsY2QBsACAdICJGI4Zjc1ZGZiLTc0YTUtNGIyNi1hZmQ4LWYyYjQzNGQwMjgzOdgCBeACAQ;sid=ffd7ca868d6d04275c7091b539c7a70b;inac=0&"
+      ],
+      ["berlin_all","https://www.booking.com/searchresults.html?aid=304142&label=gen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuAKcsY2QBsACAdICJGI4Zjc1ZGZiLTc0YTUtNGIyNi1hZmQ4LWYyYjQzNGQwMjgzOdgCBeACAQ&sid=ffd7ca868d6d04275c7091b539c7a70b&sb=1&sb_lp=1&src=index&src_elem=sb&error_url=https%3A%2F%2Fwww.booking.com%2Findex.html%3Faid%3D304142%3Blabel%3Dgen173nr-1FCAEoggI46AdIM1gEaKkBiAEBmAExuAEXyAEM2AEB6AEB-AECiAIBqAIDuAKcsY2QBsACAdICJGI4Zjc1ZGZiLTc0YTUtNGIyNi1hZmQ4LWYyYjQzNGQwMjgzOdgCBeACAQ%3Bsid%3Dffd7ca868d6d04275c7091b539c7a70b%3Bsb_price_type%3Dtotal%3Bsrpvid%3Dc7002a91189c00f4%26%3B&ss=Berlin%2C+Berlin+Federal+State%2C+Germany&is_ski_area=&checkin_year=&checkin_month=&checkout_year=&checkout_month=&group_adults=2&group_children=0&no_rooms=1&b_h4u_keep_filters=&from_sf=1&ss_raw=Berlin&ac_position=0&ac_langcode=en&ac_click_type=b&dest_id=-1746443&dest_type=city&iata=BER&place_id_lat=52.516212&place_id_lon=13.376817&search_pageview_id=09ae2a952036011b&search_selected=true&search_pageview_id=09ae2a952036011b&ac_suggestion_list_length=5&ac_suggestion_theme_list_length=0"]
+    ]
+  },
+  {
+    "site": "Expedia",
+    "pages": []
+  },
+  {
+    "site": "Hotels",
+    "pages": []
+  }
+]
