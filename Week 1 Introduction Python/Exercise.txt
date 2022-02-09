@@ -1,0 +1,17 @@
+On campus nr 1 : First steps into Python
+
+Exercise to
+•	Get data into a Python Pandas DataFrame
+•	Do simple manipulation
+•	Plotting the data
+
+To do:
+1.	Read in the file “IMDB movies.csv”
+2.	Check you are using the right separator
+3.	Answer the following questions:
+a.	How many rows does the dataframe counts?
+b.	How many columns?
+c.	What is the mean of the duration of all movies?
+d.	How many movies are there in the dataframe where country =’USA’?
+e.	What is the longest title , measured in number of characters?
+4.	Plot a chart with the number of movies for each year.
