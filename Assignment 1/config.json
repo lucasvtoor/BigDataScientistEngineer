@@ -2,5 +2,6 @@
   "host": "lucasvantoorenburg.nl",
   "username": "toorenl",
   "password": "HvAWachtwoord12!",
-  "database": "review"
+  "database": "review",
+  "chrome-driver": "chromedriver.exe"
 }
