@@ -13,11 +13,6 @@ imdb.budget = pd.to_numeric(imdb.budget, errors='coerce')
 
 
 # Exercise 2.1
-def fetch_genre(series, index):
-    if index >= len(series): return " "
-    return series[index]
-
-
 for i in range(3):
     imdb["genre{0}".format(str(i))] = imdb.genre.apply(
         lambda x: "" if i >= len(str(x).split(',')) else str(x).split(',')[i])
