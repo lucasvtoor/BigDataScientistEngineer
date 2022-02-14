@@ -19,8 +19,8 @@ def fetch_genre(series, index):
 
 
 for i in range(3):
-    imdb["genre" + str(i)] = imdb.genre.apply(lambda x: fetch_genre(str(x).split(','), i))
-
+    imdb["genre{0}".format(str(i))] = imdb.genre.apply(
+        lambda x: "" if i >= len(str(x).split(',')) else str(x).split(',')[i])
 
 # Exercise 3.1
 imdb["numberOfActors"] = imdb.actors.apply(lambda x: len(str(x).split(',')))
