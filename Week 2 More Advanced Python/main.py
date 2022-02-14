@@ -10,10 +10,19 @@ bud = imdb[imdb.budget.str.contains('$', na=False, regex=False)].budget
 imdb.budget = imdb.budget.apply(lambda x: str(x).strip('$'))
 # Exercise 1.3
 imdb.budget = pd.to_numeric(imdb.budget, errors='coerce')
+
+
 # Exercise 2.1
+def fetch_genre(series, index):
+    if index >= len(series): return " "
+    return series[index]
+
+
+for i in range(3):
+    imdb["genre" + str(i)] = imdb.genre.apply(lambda x: fetch_genre(str(x).split(','), i))
+
 
 # Exercise 3.1
-imdb["numberOfActors"] = imdb.actors.apply(lambda x:  len(str(x).split(',')))
+imdb["numberOfActors"] = imdb.actors.apply(lambda x: len(str(x).split(',')))
 # Exercise 3.2
 imdb["mainActor"] = imdb.actors.apply(lambda x: str(x).split(',')[0])
-print(imdb.mainActor)
