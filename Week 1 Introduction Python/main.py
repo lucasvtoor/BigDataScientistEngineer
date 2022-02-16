@@ -5,7 +5,7 @@ AMOUNT_OF_DTYPES = 22
 IMDB_CSV_FILE_NAME = 'IMDb movies.csv'
 
 # 1. Read in the file “IMDB movies.csv”
-imdb = pd.read_csv(IMDB_CSV_FILE_NAME)
+imdb = pd.read_csv(IMDB_CSV_FILE_NAME,sep=',')
 
 # 2.	Check you are using the right separator
 print(len(imdb.dtypes) == AMOUNT_OF_DTYPES)
